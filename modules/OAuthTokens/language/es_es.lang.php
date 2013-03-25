@@ -32,7 +32,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 $mod_strings= array (
 'LBL_OAUTH_REQUEST'                                => 'Solicitud de Token',
 'LBL_OAUTH_AUTHORIZE'                              => 'Autorizar Token',
-'LBL_OAUTH_CONSUMERREQ'                            => 'Autorizar Token de del consumidor &lt;b&gt;% s &lt;/ b&gt;?',
+'LBL_OAUTH_CONSUMERREQ'                            => 'Autorizar Token de del consumidor <b>% s </ b>?',
 'LBL_OAUTH_ROLE'                                   => 'Rol del Token',
 'LBL_OAUTH_VALIDATION'                             => 'Código de verificación',
 'LBL_ASSIGNED_TO_NAME'                             => 'Usuario',
@@ -41,5 +41,5 @@ $mod_strings= array (
 'LBL_TS'                                           => 'Marca de tiempo',
 'LBL_LIST_DELETE'                                  => 'Suprimir Token',
 'LBL_CONSUMER'                                     => 'Nombre de consumidor',
-'LBL_OAUTH_DISABLED'                               => 'Soporte &quot;OAuth&quot; no está habilitado. &quot;PHP extensión OAuth&quot; pueden estar ausentes. Por favor, póngase en contacto con el administrador.',
+'LBL_OAUTH_DISABLED'                               => 'Soporte "OAuth" no está habilitado. "PHP extensión OAuth" pueden estar ausentes. Por favor, póngase en contacto con el administrador.',
 );?>

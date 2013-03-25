@@ -93,10 +93,10 @@ $mod_strings= array (
 'LBL_REAUTHENTICATE_KEY'                           => 'a',
 'LBL_APPLICATION_FOUND_NOTICE'                     => 'Una cuenta para esta aplicación ya existe. Hemos restablecido la cuenta existente.',
 'LBL_OMIT_URL'                                     => '(Omitir http:// o https://)',
-'LBL_OAUTH_SAVE_NOTICE'                            => 'Haga clic en &lt;b&gt; Conectar &lt;/ b&gt; para dirigirse a una página para proporcionar información de su cuenta y para autorizar el acceso a la cuenta de Sugar. Después de la conexión, se le dirigirá de nuevo a Sugar.',
-'LBL_BASIC_SAVE_NOTICE'                            => 'Haga clic en &lt;b&gt; Conectar &lt;/ b&gt; para conectarse a esta cuenta de Sugar.',
+'LBL_OAUTH_SAVE_NOTICE'                            => 'Haga clic en <b> Conectar </ b> para dirigirse a una página para proporcionar información de su cuenta y para autorizar el acceso a la cuenta de Sugar. Después de la conexión, se le dirigirá de nuevo a Sugar.',
+'LBL_BASIC_SAVE_NOTICE'                            => 'Haga clic en <b> Conectar </ b> para conectarse a esta cuenta de Sugar.',
 'LBL_ERR_FACEBOOK'                                 => 'Facebook ha devuelto un error, y la alimentación no se puede mostrar.',
 'LBL_ERR_NO_RESPONSE'                              => 'Se produjo un error al intentar conectarse a esta cuenta.',
 'LBL_ERR_TWITTER'                                  => 'Twitter ha devuelto un error, y la alimentación no se puede mostrar.',
-'LBL_ERR_POPUPS_DISABLED'                          => 'Por favor, activa las ventanas del navegador popup o agregar una excepción para el sitio web &quot;{0}&quot; a la lista de excepciones para poder conectarse.',
+'LBL_ERR_POPUPS_DISABLED'                          => 'Por favor, activa las ventanas del navegador popup o agregar una excepción para el sitio web "{0}" a la lista de excepciones para poder conectarse.',
 );?>

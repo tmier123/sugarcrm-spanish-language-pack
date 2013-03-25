@@ -30,8 +30,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings= array (
-'LBL_REPLY_ADDR'                                   => 'Dirección de &quot;Responder a&quot;: ',
-'LBL_REPLY_NAME'                                   => 'Nombre de &quot;Responder a&quot;: ',
+'LBL_REPLY_ADDR'                                   => 'Dirección de "Responder a": ',
+'LBL_REPLY_NAME'                                   => 'Nombre de "Responder a": ',
 'LBL_MODULE_NAME'                                  => 'Marketing por Email',
 'LBL_MODULE_TITLE'                                 => 'Marketing por Email: Inicio',
 'LBL_LIST_FORM_TITLE'                              => 'Campañas de Marketing por Email',

@@ -122,7 +122,7 @@ Para salir, teclee &#039;quit&#039;.  Para detener el servicio &#039;shutdown&#0
 'LBL_CRON_INSTRUCTIONS_LINUX'                      => 'Para configurar Crontab',
 'LBL_CRON_LINUX_DESC'                              => 'Nota: Para ejecutar los Planificadores de Sugar, añada la siguiente línea a su archivo crontab: ',
 'LBL_CRON_WINDOWS_DESC'                            => 'Nota: Para ejecutar los planificadores de Sugar, cree un archivo de proceso por lotes a ejecutar utilizando las Tareas Programadas de Windows. El archivo de proceso por lotes debería contener los siguientes comandos: ',
-'LBL_NO_PHP_CLI'                                   => 'Si su servidor no tiene disponibles los binarios PHP, puede utilizar wget o curl para lanzar sus Tareas.&lt;br&gt;para wget: &lt;b&gt;*    *    *    *    *    wget --quiet --non-verbose http://romiasugar.clients.btactic.net/cron.php &gt; /dev/null 2&gt;&1&lt;/b&gt;&lt;br&gt;para curl: &lt;b&gt;*    *    *    *    *    curl --silent http://romiasugar.clients.btactic.net/cron.php &gt; /dev/null 2&gt;&1',
+'LBL_NO_PHP_CLI'                                   => 'Si su servidor no tiene disponibles los binarios PHP, puede utilizar wget o curl para lanzar sus Tareas.<br>para wget: <b>*    *    *    *    *    wget --quiet --non-verbose http://romiasugar.clients.btactic.net/cron.php > /dev/null 2>&1</b><br>para curl: <b>*    *    *    *    *    curl --silent http://romiasugar.clients.btactic.net/cron.php > /dev/null 2>&1',
 'LBL_JOBS_SUBPANEL_TITLE'                          => 'Registro de Tareas',
 'LBL_EXECUTE_TIME'                                 => 'Tiempo de Ejecución',
 'LBL_REFRESHJOBS'                                  => 'Actualizar Trabajos',

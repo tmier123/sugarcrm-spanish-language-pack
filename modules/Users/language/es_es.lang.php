@@ -30,8 +30,8 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 $mod_strings= array (
-'LBL_DELETE_USER_CONFIRM'                          => 'Al eliminar el registro de Usuario, el registroo correspondiente de Empreado también será eliminado. Una vez el usuario ha sido eliminado, es posible que las definiciones de workflow e informes que involucren al usuario tengan que ser actualizados.&lt;br/&gt;&lt;br/&gt;Haga clic en Aceptar para eliminar el registro de Usuario. Tras hacer clic en Aceptar, le será otorgada la capacidad de reasignar los registros asignados al usuario a otro usuario.',
-'LBL_DELETE_GROUP_CONFIRM'                         => '¿Está seguro de que desea eliminar este Usuario de Grupo? Haga clic en Aceptar para eliminar el registro de Usuario.&lt;br/&gt;Tras Aceptar, le será otorgada la capacidad de reasignar los registros asignados del Usuario de Grupo a otro usuario.',
+'LBL_DELETE_USER_CONFIRM'                          => 'Al eliminar el registro de Usuario, el registroo correspondiente de Empreado también será eliminado. Una vez el usuario ha sido eliminado, es posible que las definiciones de workflow e informes que involucren al usuario tengan que ser actualizados.<br/><br/>Haga clic en Aceptar para eliminar el registro de Usuario. Tras hacer clic en Aceptar, le será otorgada la capacidad de reasignar los registros asignados al usuario a otro usuario.',
+'LBL_DELETE_GROUP_CONFIRM'                         => '¿Está seguro de que desea eliminar este Usuario de Grupo? Haga clic en Aceptar para eliminar el registro de Usuario.<br/>Tras Aceptar, le será otorgada la capacidad de reasignar los registros asignados del Usuario de Grupo a otro usuario.',
 'LBL_DELETE_PORTAL_CONFIRM'                        => '¿Está seguro de que desea eliminar este Usuario del API del Portal? Haga clic en Aceptar para eliminar el registro de Usuario.',
 'LNK_IMPORT_USERS'                                 => 'Importar Usuarios',
 'ERR_DELETE_RECORD'                                => 'Debe especificar un número de registro a borrar.',
@@ -48,8 +48,8 @@ $mod_strings= array (
 Si no ha configurado el Correo Entrante, por favor, borre los valores de todos los campos de esa sección.',
 'ERR_INVALID_PASSWORD'                             => 'Debe indicar un usuario y contraseña válidos.',
 'ERR_NO_LOGIN_MOBILE'                              => 'Su primer inicio de sesión en esta aplicación debe ser completado con un navegador que no sea móvil, o en modo normal. Por favor, vuelva a intentarlo con un navegador completo o haga clic en el enlace para el modo normal más abajo. Rogamos disculpe las molestias.',
-'ERR_LAST_ADMIN_1'                                 => 'el nombre de usuario &quot;',
-'ERR_LAST_ADMIN_2'                                 => '&quot; es el último usuario Administrador.  Al menos un usuario debe ser Administrador. Revise la configuración del usuario Administrador.',
+'ERR_LAST_ADMIN_1'                                 => 'el nombre de usuario "',
+'ERR_LAST_ADMIN_2'                                 => '" es el último usuario Administrador.  Al menos un usuario debe ser Administrador. Revise la configuración del usuario Administrador.',
 'ERR_PASSWORD_CHANGE_FAILED_1'                     => 'Cambio de contraseña fallido por ',
 'ERR_PASSWORD_CHANGE_FAILED_2'                     => ' fallido.  La nueva contraseña debe ser establecida.',
 'ERR_PASSWORD_CHANGE_FAILED_3'                     => 'fallado. La nueva contraseña debe ser establecida.',
@@ -72,7 +72,7 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'ERR_SMTP_USERNAME_SMTP_PASSWORD'                  => 'Nombre de usuario y contraseña SMTP',
 'ERR_RECIPIENT_EMAIL'                              => 'Correo electrónico del Destinatario',
 'ERR_SERVER_STATUS'                                => 'El estado de su servidor',
-'ERR_SERVER_SMTP_EMPTY'                            => 'El sistema no puede enviar correo al usuario. Por favor, compruebe la Configuración de Correo Saliente en la &lt;a href=&quot;index.php?module=EmailMan&action=config&quot;&gt;Configuración de Correo&lt;/a&gt;.',
+'ERR_SERVER_SMTP_EMPTY'                            => 'El sistema no puede enviar correo al usuario. Por favor, compruebe la Configuración de Correo Saliente en la <a href="index.php?module=EmailMan&action=config">Configuración de Correo</a>.',
 'LBL_ADDRESS_CITY'                                 => 'Ciudad de dirección',
 'LBL_ADDRESS_COUNTRY'                              => 'País de dirección',
 'LBL_ADDRESS_INFORMATION'                          => 'Direcciones',
@@ -133,7 +133,7 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_EMAIL_EDITOR_OPTION'                          => 'Formato de correo',
 'LBL_EMAIL_GMAIL_DEFAULTS'                         => 'Rellenar previamente valores por defecto para Gmail™',
 'LBL_EMAIL_LINK_TYPE'                              => 'Cliente de correo',
-'LBL_EMAIL_LINK_TYPE_HELP'                         => '&lt;b&gt;Cliente de Correo Sugar:&lt;/b&gt; Enviar correos usando el cliente de correo de la aplicación Sugar.&lt;br&gt;&lt;b&gt;Cliente de Correo Externo:&lt;/b&gt; Enviar correo usando un cliente de correo externo a la aplicación Sugar, como Microsoft Outlook.',
+'LBL_EMAIL_LINK_TYPE_HELP'                         => '<b>Cliente de Correo Sugar:</b> Enviar correos usando el cliente de correo de la aplicación Sugar.<br><b>Cliente de Correo Externo:</b> Enviar correo usando un cliente de correo externo a la aplicación Sugar, como Microsoft Outlook.',
 'LBL_EMAIL_NOT_SENT'                               => 'El sistema no puede procesar su petición. Por favor, contacte con el administrador del sistema.',
 'LBL_EMAIL_PROVIDER'                               => 'Proveedor de Correo',
 'LBL_EMAIL_SHOW_COUNTS'                            => '¿Mostrar contador de correos?',
@@ -189,7 +189,7 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_LOCALE_DESC_TITLE'                            => '[Cargo]',
 'LBL_LOCALE_EXAMPLE_NAME_FORMAT'                   => 'Ejemplo',
 'LBL_LOCALE_NAME_FORMAT_DESC'                      => 'Establezca cómo desea que se muestren los nombres.',
-'LBL_LOCALE_NAME_FORMAT_DESC_2'                    => '&lt;i&gt;&quot;s&quot; Título&lt;br&gt;&quot;f&quot; Nombre&lt;br&gt;&quot;l&quot; Apellido&lt;/i&gt;',
+'LBL_LOCALE_NAME_FORMAT_DESC_2'                    => '<i>"s" Título<br>"f" Nombre<br>"l" Apellido</i>',
 'LBL_SAVED_SEARCH'                                 => 'Búsquedas y Diseños Guardados',
 'LBL_LOGIN_BUTTON_KEY'                             => 'L',
 'LBL_LOGIN_BUTTON_LABEL'                           => 'Iniciar Sesión',
@@ -367,16 +367,16 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_CERT_DESC'                                    => 'Forzar validación del Certificado de Seguridad del servidor de correo - no usar si es de firma propia.',
 'LBL_CERT'                                         => 'Validar Certificado',
 'LBL_FIND_OPTIMUM_KEY'                             => 'f',
-'LBL_FIND_OPTIMUM_MSG'                             => '&lt;br&gt;Buscando variables óptimas de conexión.',
+'LBL_FIND_OPTIMUM_MSG'                             => '<br>Buscando variables óptimas de conexión.',
 'LBL_FIND_OPTIMUM_TITLE'                           => 'Buscar Configuración Óptima',
 'LBL_FORCE'                                        => 'Forzar Negativo',
 'LBL_FORCE_DESC'                                   => 'Algunos servidores IMAP/POP3 requieren opciones especiales. Marque para forzar una opción negativa al conectar (ej., /notls)',
-'LBL_FOUND_OPTIMUM_MSG'                            => '&lt;br&gt;Opciones óptimas encontradas.	Presiones el siguiente botón para aplicarlas a su bandeja de correo.',
+'LBL_FOUND_OPTIMUM_MSG'                            => '<br>Opciones óptimas encontradas.	Presiones el siguiente botón para aplicarlas a su bandeja de correo.',
 'LBL_EMAIL_INBOUND_TITLE'                          => 'Opciones del Correo Entrante',
 'LBL_EMAIL_OUTBOUND_TITLE'                         => 'Opciones del Correo Saliente',
 'LBL_LOGIN'                                        => 'Nombre de Usuario',
 'LBL_MAILBOX_DEFAULT'                              => 'INBOX',
-'LBL_MAILBOX_SSL_DESC'                             => 'Usar SSL en la conexión. Si no funciona, compruebe que su instalación de PHP incluye &quot;--with-imap-ssl&quot; en la configuración.',
+'LBL_MAILBOX_SSL_DESC'                             => 'Usar SSL en la conexión. Si no funciona, compruebe que su instalación de PHP incluye "--with-imap-ssl" en la configuración.',
 'LBL_MAILBOX'                                      => 'Carpeta Monitorizada',
 'LBL_MAILBOX_TYPE'                                 => 'Acciones Posibles',
 'LBL_MARK_READ_NO'                                 => 'Correo marcado como borrado tras importación',
@@ -459,24 +459,24 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_WIZARD_TITLE'                                 => 'Asistente de Usuario',
 'LBL_WIZARD_WELCOME_TAB'                           => 'Bienvenido',
 'LBL_WIZARD_WELCOME_TITLE'                         => '¡Bienvenido a Sugar!',
-'LBL_WIZARD_WELCOME'                               => 'Haga clic en &lt;b&gt;Siguiente&lt;/b&gt; para configurar algunas opciones básicas de Sugar.',
-'LBL_WIZARD_WELCOME_NOSMTP'                        => 'Haga clic en &lt;b&gt;Siguiente&lt;/b&gt; para configurar algunas opciones básicas de Sugar.',
-'LBL_WIZARD_NEXT_BUTTON'                           => 'Siguiente &gt;',
-'LBL_WIZARD_BACK_BUTTON'                           => '&lt; Anterior',
+'LBL_WIZARD_WELCOME'                               => 'Haga clic en <b>Siguiente</b> para configurar algunas opciones básicas de Sugar.',
+'LBL_WIZARD_WELCOME_NOSMTP'                        => 'Haga clic en <b>Siguiente</b> para configurar algunas opciones básicas de Sugar.',
+'LBL_WIZARD_NEXT_BUTTON'                           => 'Siguiente >',
+'LBL_WIZARD_BACK_BUTTON'                           => '< Anterior',
 'LBL_WIZARD_SKIP_BUTTON'                           => 'Saltar',
 'LBL_WIZARD_FINISH_BUTTON'                         => 'Finalizar',
 'LBL_WIZARD_FINISH_TAB'                            => 'Finalizar',
 'LBL_WIZARD_FINISH_TITLE'                          => '¡Ya está listo para usar Sugar!',
-'LBL_WIZARD_FINISH'                                => 'Haga clic en &lt;b&gt;Finalizar&lt;/b&gt; a continuación para guardar sus opciones y comenzar a utilizar Sugar. Para más información sobre cómo utilizar Sugar:&lt;br /&gt;&lt;br /&gt;
-&lt;table cellpadding=0 cellspacing=0&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img src=include/images/university.png style=&quot;margin-right: 5px;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://www.sugarcrm.com/university&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Universidad Sugar&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Formación y recursos para usuarios finales y administradores de sistemas&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=2&gt;&lt;hr style=&quot;margin: 5px 0px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img src=include/images/docs.png style=&quot;margin-right: 5px;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://docs.sugarcrm.com/&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Documentación&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Guías de producto y notas de lanzamiento&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=2&gt;&lt;hr style=&quot;margin: 5px 0px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img src=include/images/kb.png style=&quot;margin-right: 5px;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://kb.sugarcrm.com/&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Base de Conocimiento&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Consejos del Soporte de SugarCRM para realizar tareas y procesos habituales en Sugar&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td colspan=2&gt;&lt;hr style=&quot;margin: 5px 0px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;&lt;img src=include/images/forums.png style=&quot;margin-right: 5px;&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://www.sugarcrm.com/forums&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Foros&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Foros dedicados a la Comunidad Sugar para discutir asuntos de interés con otros miembros de la Comunidad y con Desarrolladores de SugarCRM&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;',
+'LBL_WIZARD_FINISH'                                => 'Haga clic en <b>Finalizar</b> a continuación para guardar sus opciones y comenzar a utilizar Sugar. Para más información sobre cómo utilizar Sugar:<br /><br />
+<table cellpadding=0 cellspacing=0>
+<tr><td><img src=include/images/university.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com/university" target="_blank"><b>Universidad Sugar</b></a><br>Formación y recursos para usuarios finales y administradores de sistemas</td></tr>
+<tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
+<tr><td><img src=include/images/docs.png style="margin-right: 5px;"></td><td><a href="http://docs.sugarcrm.com/" target="_blank"><b>Documentación</b></a><br>Guías de producto y notas de lanzamiento</td></tr>
+<tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
+<tr><td><img src=include/images/kb.png style="margin-right: 5px;"></td><td><a href="http://kb.sugarcrm.com/" target="_blank"><b>Base de Conocimiento</b></a><br>Consejos del Soporte de SugarCRM para realizar tareas y procesos habituales en Sugar</td></tr>
+<tr><td colspan=2><hr style="margin: 5px 0px;"></td></tr>
+<tr><td><img src=include/images/forums.png style="margin-right: 5px;"></td><td><a href="http://www.sugarcrm.com/forums" target="_blank"><b>Foros</b></a><br>Foros dedicados a la Comunidad Sugar para discutir asuntos de interés con otros miembros de la Comunidad y con Desarrolladores de SugarCRM</td></tr>
+</table>',
 'LBL_WIZARD_FINISH1'                               => '¿Qué te gustaría hacer a continuación?',
 'LBL_WIZARD_FINISH2'                               => 'Empezar a usar Sugar',
 'LBL_WIZARD_FINISH3'                               => 'Importar datos',
@@ -499,7 +499,7 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_WIZARD_PERSONALINFO'                          => 'Su Información',
 'LBL_WIZARD_LOCALE'                                => 'Su Configuración Regional',
 'LBL_WIZARD_SMTP'                                  => 'Su Cuenta de Correo',
-'LBL_WIZARD_PERSONALINFO_DESC'                     => 'Proporcione información sobre si mismo. La información que proporcione sobre si mismo será visible para otros usuarios de Sugar.&lt;br /&gt;Los campos marcados con &lt;span class=&quot;required&quot;&gt;*&lt;/span&gt; son requeridos.',
+'LBL_WIZARD_PERSONALINFO_DESC'                     => 'Proporcione información sobre si mismo. La información que proporcione sobre si mismo será visible para otros usuarios de Sugar.<br />Los campos marcados con <span class="required">*</span> son requeridos.',
 'LBL_WIZARD_LOCALE_DESC'                           => 'Especifique su zona horaria y cómo desea que aparezcan en Sugar las fechas, monedas y nombres.',
 'LBL_WIZARD_SMTP_DESC'                             => 'Proporcione el nombre de usuario y la contraseña de su cuenta de correo para el servidor de correo saliente por defecto.',
 'LBL_EAPM_SUBPANEL_TITLE'                          => 'Cuentas externas',
