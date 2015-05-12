@@ -10,7 +10,7 @@ $manifest = array(
 	'acceptable_sugar_versions' => array ( "exact_matches" => array (), "regex_matches" => array (	0 => "6.5.[0-9][a-z]?" ,
         	1 => "6.4.[0-9][a-z]?" ,
         	2 => "6.3.[0-9][a-z]?" ), ),
-	'published_date' => '21-12-2012',
+	'published_date' => '2015-05-12',
 );
 
 $installdefs = array(
