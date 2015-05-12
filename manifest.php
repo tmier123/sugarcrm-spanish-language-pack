@@ -4,7 +4,7 @@ $manifest = array(
   'description' => 'Spanish (Spain) Language Pack',
 	'type' => 'langpack',
 	'is_uninstallable' => 'Yes',
-	'version' => '1.2',
+	'version' => '1.3',
 	'acceptable_sugar_flavors' => array ( 0 => "CE", 1 => "PRO", 2 => "CORP", 3 => "ENT", 4 => "ULT"),
 	'author' => 'BTACTIC S.C.C.L. & Leonardo Barrientos C',
 	'acceptable_sugar_versions' => array ( "exact_matches" => array (), "regex_matches" => array (	0 => "6.5.[0-9][a-z]?" ,
