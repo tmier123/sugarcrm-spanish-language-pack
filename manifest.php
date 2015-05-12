@@ -1,7 +1,7 @@
 <?php
 $manifest = array( 
 	'name' => 'Spanish (Spain) Language Pack',
-    'description' => 'Spanish (Spain) Language Pack',
+  'description' => 'Spanish (Spain) Language Pack',
 	'type' => 'langpack',
 	'is_uninstallable' => 'Yes',
 	'version' => '6.5',
