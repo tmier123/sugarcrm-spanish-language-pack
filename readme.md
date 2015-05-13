@@ -21,3 +21,10 @@ rm -rf /home/crm/git/checkout/*
 ```
 
 La ejecución de este hook genera el archivo Zip que puede ser instalado desde Module Builder.
+
+# ¿Cómo colaborar a este proyecto?
+
+IMPORTANTE: Se usa GitFlow.
+
+1. Clona el repositorio y opera en el branch develop ( git checkout develop) y trabaja en tu copia de trabajo integrando tus feature-branches hacia develop.
+2. Sube los cambios empujado develop hacia el origin develop y avisa al administrador para integrar el commit hacia el master y generar cada cierto tiempo un release tag.
