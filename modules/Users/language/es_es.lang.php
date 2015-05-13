@@ -84,7 +84,7 @@ Si no ha configurado el Correo Entrante, por favor, borre los valores de todos l
 'LBL_ADMIN_DESC'                                   => 'El usuario puede acceder a la página de Administración y a todos los registros, independientemente de la seguridad de equipos.',
 'LBL_REGULAR_DESC'                                 => 'El usuario puede acceder a módulos y registros en base a la seguridad de equipos y roles.',
 'LBL_ADMIN'                                        => 'Administrador del Sistema',
-'LBL_ADVANCED'                                     => 'Advanzado',
+'LBL_ADVANCED'                                     => 'Avanzado',
 'LBL_ANY_ADDRESS'                                  => 'Otra Dirección:',
 'LBL_ANY_EMAIL'                                    => 'Cualquier Correo',
 'LBL_ANY_PHONE'                                    => 'Otro teléfono',
